@@ -4,7 +4,7 @@ pipeline {
         stage('Inicial'){
             steps{
                 echo 'Iniciando a pipeline 3'
-                sh mkdir ~/teste
+                sh "mkdir ~/teste"
             }
         }
     }
